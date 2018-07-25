@@ -1,0 +1,84 @@
+{
+	"env": {
+		// comment
+		"es6": true,
+		"mocha": true,
+		"node": true
+	},
+
+	"extends": "eslint:recommended",
+
+	"rules": {
+		"indent": ["error", 2],
+
+		"linebreak-style": ["error", "unix"],
+
+		"quotes": ["error", "single"],
+
+		"semi": ["error", "always"]
+	},
+
+	"level_1a": "first_level",
+	"level_1b": ["one", 101, true],
+	"level_1c": {
+		"level_2a": "second_level",
+		"level_2b": ["two", 102, true],
+		"level_2c": {
+			"level_3a": "third level",
+			"level_3b": ["three", 103, true],
+			"level_3c": {
+				"level_4a": "fourth_level",
+				"level_4b": ["four", 104, true],
+				"level_4c": {
+					"level_5a": "fifth_level",
+					"level_5b": ["five", 105, true],
+					"level_5c": {
+						"level_6a": "sixth level",
+						"level_6b": ["six", 106, true],
+						"level_6c": {
+							"level_7a": "seventh_level",
+							"level_7b": ["seven", 107, true],
+							"level_7c": {
+								"level_8a": "eighth_level",
+								"level_8b": ["eight", 108, true],
+								"level_8c": {
+									"level_9a": "ninth level",
+									"level_9b": ["nine", 109, true],
+									"level_9c": {
+										"level_10a": "tenth level",
+										"level_10b": ["ten", 110, true],
+										"level_10c": {
+											"level_11a": "eleventh level",
+											"level_11b": ["eleven", 111, true],
+											"level_11c": {
+												"level_12a": "twelfth_level",
+												"level_12b": ["twelve", 112, true],
+												"level_12c": {
+													"level_13a": "thirteenth_level",
+													"level_13b": ["thirteen", 105, true],
+													"level_13c": {
+														"level_14a": "fourteenth level",
+														"level_14b": ["fourteen", 106, true],
+														"level_14c": {
+															"level_15a": "fifteenth_level",
+															"level_15b": ["fifteen", 107, true],
+															"level_15c": {
+																"level_16a": "sixteenth_level",
+																"level_16b": ["sixteen", 108, true],
+																"level_16c": false
+															}
+														}
+													}
+												}
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}

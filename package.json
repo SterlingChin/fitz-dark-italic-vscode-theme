@@ -1,0 +1,43 @@
+{
+	"name": "fitz-dark-italic-vscode-theme",
+	"version": "0.0.1",
+	"displayName": "Fitz Dark Italic",
+	"description": "A VS Code dark ui/syntax color theme with italics",
+	"publisher": "sheafitzek",
+	"icon": "images/logo.png",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/sheafitzek/fitz-dark-italic-vscode-theme"
+	},
+	"galleryBanner": {
+		"color": "#0080ff",
+		"theme": "dark"
+	},
+	"categories": ["Themes"],
+	"keywords": [
+		"VSCode",
+		"Fitz Dark",
+		"Italic",
+		"Syntax",
+		"UI",
+		"Theme",
+		"Dark Theme",
+		"Night Theme"
+	],
+	"engines": {
+		"vscode": "^1.24.0"
+	},
+	"scripts": {
+		"publish": "vsce publish"
+	},
+	"contributes": {
+		"themes": [
+			{
+				"label": "Fitz Dark Italic",
+				"uiTheme": "vs-dark",
+				"path": "./themes/fitz-dark-italic-vscode-theme.json"
+			}
+		]
+	},
+	"license": "MIT"
+}

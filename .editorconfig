@@ -1,0 +1,27 @@
+root = true
+
+## GLOBAL ##
+[*]
+charset = utf-8
+# unix / linux
+end_of_line = lf
+insert_final_newline = true
+# personal preference
+tab_width = 4
+indent_size =
+indent_style = tab
+trim_trailing_whitespace = false
+
+## MARKDOWN ##
+[*.md]
+trim_trailing_whitespace = false
+tab_width = 2
+indent_size = tab
+indent_style = space
+
+## TRAVIS.YML, PACKAGE.JSON ##
+[{.travis.yml,package.json}]
+# The indent size used in the `package.json` file cannot be changed
+# https://github.com/npm/npm/pull/3180#issuecomment-16336516
+indent_size = 2
+indent_style = space

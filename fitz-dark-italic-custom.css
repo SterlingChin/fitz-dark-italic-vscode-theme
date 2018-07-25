@@ -1,0 +1,59 @@
+/* Fitz-Dark-Italic Custom CSS */
+
+/* This tells the user agent to prioritize legibility over rendering speed and geometric precision */
+.monaco-shell {
+	text-rendering: optimizeLegibility;
+}
+
+/* These make the active tab top border match the bottom border */
+.vs-dark
+	.monaco-workbench
+	> .part.editor
+	> .content
+	.editor-group-container.active
+	> .title
+	.tabs-container
+	> .tab.active {
+	border-top: 1px solid #9cff4c;
+}
+
+.vs-dark
+	.monaco-workbench
+	> .part.editor
+	> .content
+	.editor-group-container.inactive
+	> .title
+	.tabs-container
+	> .tab.active {
+	border-top: 1px solid rgba(155, 255, 75, 0.6); /* #9bff4b99 */
+}
+
+/* This makes the dirty tab circle red */
+.vs-dark
+	.monaco-workbench
+	> .part.editor
+	> .content
+	.editor-group-container
+	> .title
+	.tabs-container
+	> .tab.dirty
+	> .tab-close
+	.action-label {
+	background: rgba(255, 0, 0, 0.6); /* #ff000099 */
+	border-radius: 50%;
+	width: 8px;
+	height: 8px;
+}
+
+/* This gives the minimap vertical borders */
+.vs-dark
+	.monaco-workbench
+	> .part.editor
+	> .content
+	.editor-group-container
+	> .editor-container
+	.overflow-guard
+	> .minimap.slider-mouseover {
+	border-right: 1px solid rgba(128, 190, 255, 0.6); /* #80beff99 */
+	border-left: 1px solid rgba(128, 190, 255, 0.6); /* #80beff99 */
+}
