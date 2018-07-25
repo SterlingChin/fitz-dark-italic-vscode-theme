@@ -14,16 +14,7 @@
 		"theme": "dark"
 	},
 	"categories": ["Themes"],
-	"keywords": [
-		"VSCode",
-		"Fitz Dark",
-		"Italic",
-		"Syntax",
-		"UI",
-		"Theme",
-		"Dark Theme",
-		"Night Theme"
-	],
+	"keywords": ["VSCode", "Fitz Dark", "Italic", "Theme", "Dark Theme"],
 	"engines": {
 		"vscode": "^1.24.0"
 	},
