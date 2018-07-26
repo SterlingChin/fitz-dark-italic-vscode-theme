@@ -540,15 +540,15 @@
 		// status Bar border color separating the Status Bar and editor
 		"statusBar.border": "#80beff99",
 		// status Bar background color when a program is being debugged
-		"statusBar.debuggingBackground": "#ffb3ff",
+		"statusBar.debuggingBackground": "#3c3c3c",
 		// status Bar foreground color when a program is being debugged
-		"statusBar.debuggingForeground": "#1e1e1e",
+		"statusBar.debuggingForeground": "#ffb3ff",
 		// status Bar border color separating the Status Bar and editor when a program is being debugged
 		"statusBar.debuggingBorder": "#80beff99",
 		// status Bar foreground color when no folder is opened
-		"statusBar.noFolderForeground": "#1e1e1e",
+		"statusBar.noFolderForeground": "#80beff",
 		// status Bar background color when no folder is opened
-		"statusBar.noFolderBackground": "#80beff",
+		"statusBar.noFolderBackground": "#3c3c3c",
 		// status Bar border color separating the Status Bar and editor when no folder is opened
 		"statusBar.noFolderBorder": "#80beff99",
 		// status Bar item background color when clicking
