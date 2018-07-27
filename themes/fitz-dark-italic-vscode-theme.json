@@ -152,6 +152,7 @@
 		"list.inactiveFocusBackground": "#ffb3ff",
 		// list/tree foreground color for invalid items, for example an unresolved root in explorer
 		"list.invalidItemForeground": "#ff0000",
+		//foreground color of list items containing errors
 
 
 		// ACTIVITY BAR //
@@ -692,7 +693,7 @@
 		// color for conflicting Git resources. Used for file labels and the SCM viewlet
 		"gitDecoration.conflictingResourceForeground": "#804bff",
 		// "color for submodule resources
-		"gitDecoration.submoduleResourceForeground": "#23d6f1",
+		"gitDecoration.submoduleResourceForeground": "#23d6f1"
 	},
 
 	// for Syntax theme
@@ -791,12 +792,12 @@
 		{
 			"name": "[Global] - Entity Name Class",
 			"scope": [
-				"entity.name.class",
+				"entity.name.class"
 			],
 			"settings": {
 				"foreground": "#28a228",
 				"fontStyle": "bold underline"
-			},
+			}
 		},
 		{
 			"name": "[Global] - Entity Name Function / Method",
@@ -806,7 +807,7 @@
 			],
 			"settings": {
 				"foreground": "#9cff4ccc"
-			},
+			}
 		},
 		{
 			"name": "[Global] - Entity Name Section",
@@ -815,7 +816,7 @@
 			],
 			"settings": {
 				"foreground": "#f0f040"
-			},
+			}
 		},
 		{
 			"name": "[Global] - Entity Name Tag",
@@ -824,7 +825,7 @@
 			],
 			"settings": {
 				"foreground": "#0080ff"
-			},
+			}
 		},
 		{
 			"name": "[Global] - Entity Name Type",
@@ -833,7 +834,7 @@
 			],
 			"settings": {
 				"foreground": "#76ff76"
-			},
+			}
 		},
 		{
 			"name": "[Global] - Entity Other Attribute Name",
@@ -876,10 +877,10 @@
 			],
 			"settings": {
 				"foreground": "#ff1111"
-			},
+			}
 		},
 		{
-			"name": "[Global] - Keyword Arithmatic / Assignment / Logical",
+			"name": "[Global] - Keyword Arithmetic / Assignment / Logical",
 			"scope": [
 				"keyword.operator.arithmetic",
 				"keyword.operator.assignment",
@@ -887,7 +888,7 @@
 			],
 			"settings": {
 				"foreground": "#f0f040"
-			},
+			}
 		},
 		{
 			"name": "[Global] - Keyword Control / Operator",
@@ -897,7 +898,7 @@
 			],
 			"settings": {
 				"foreground": "#23d6f1"
-			},
+			}
 		},
 		{
 			"name": "[Global] - Keyword New",
@@ -906,7 +907,7 @@
 			],
 			"settings": {
 				"foreground": "#0047ff"
-			},
+			}
 		},
 		{
 			"name": "[Global] - Keyword Operator Logical",
@@ -915,7 +916,7 @@
 			],
 			"settings": {
 				"foreground": "#ff7fff"
-			},
+			}
 		},
 		{
 			"name": "[Global] - Keyword Other",
@@ -924,7 +925,7 @@
 			],
 			"settings": {
 				"foreground": "#00ffff"
-			},
+			}
 		},
 		
 		// Markup
@@ -1135,7 +1136,7 @@
 				"support.constant.color",
 				"support.constant.font-name",
 				"support.constant.property-value",
-				"support.variable.property.dom",
+				"support.variable.property.dom"
 			],
 			"settings": {
 				"foreground": "#22a7ff"
@@ -1186,7 +1187,7 @@
 		{
 			"name": "[Global] - Variable Language",
 			"scope": [
-				"variable.language",
+				"variable.language"
 			],
 			"settings": {
 				"foreground": "#e13b74",
@@ -1196,7 +1197,7 @@
 		{
 			"name": "[Global] - Variable Other",
 			"scope": [
-				"variable.other",
+				"variable.other"
 			],
 			"settings": {
 				"foreground": "#f39c12"
@@ -1205,7 +1206,7 @@
 		{
 			"name": "[Global] - Variable Other Class",
 			"scope": [
-				"variable.other.class",
+				"variable.other.class"
 			],
 			"settings": {
 				"foreground": "#28a228",
@@ -1215,7 +1216,7 @@
 		{
 			"name": "[Global] - Variable Other ReadWrite",
 			"scope": [
-				"variable.other.readwrite",
+				"variable.other.readwrite"
 			],
 			"settings": {
 				"foreground": "#e13b74"
@@ -1224,7 +1225,7 @@
 		{
 			"name": "[Global] - Variable Parameter",
 			"scope": [
-				"variable.parameter",
+				"variable.parameter"
 			],
 			"settings": {
 				"foreground": "#804bff",
@@ -1455,7 +1456,7 @@
 				"keyword.other.template.end.js"
 			],
 			"settings": {
-				"foreground": "#20df20",
+				"foreground": "#20df20"
 			}
 		},
 		{
@@ -1464,7 +1465,7 @@
 				"meta.class.js"
 			],
 			"settings": {
-				"foreground": "#20df20",
+				"foreground": "#20df20"
 			}
 		},
 		{
@@ -1475,7 +1476,7 @@
 			],
 			"settings": {
 				"foreground": "#9cff4c"
-			},
+			}
 		},
 		{
 			"name": "[JAVASCRIPT] - Class Method Variable",
@@ -1495,7 +1496,7 @@
 			"settings": {
 				"foreground": "#9cff4c",
 				"fontStyle": "italic"
-			},
+			}
 		},
 		{
 			"name": "[JAVASCRIPT] - Class Method Argument",
@@ -1512,7 +1513,7 @@
 				"meta.delimiter.comma.js"
 			],
 			"settings": {
-				"foreground": "#20df20",
+				"foreground": "#20df20"
 			}
 		},
 		{
@@ -1531,7 +1532,7 @@
 			"name": "[JAVASCRIPT] - Function Call",
 			"scope": [
 				"meta.function-call.with-arguments.js variable.function.js",
-				"meta.function-call.without-arguments.js variable.function.js",
+				"meta.function-call.without-arguments.js variable.function.js"
 			],
 			"settings": {
 				"foreground": "#9cff4c",
@@ -2034,7 +2035,7 @@
 			],
 			"settings": {
 				"foreground": "#9cff4c",
-				"fontStyle": "italic",
+				"fontStyle": "italic"
 			}
 		},
 		{
@@ -2049,7 +2050,7 @@
 		{
 			"name": "[PYTHON] - Item Access",
 			"scope": [
-				"meta.item-access.python",
+				"meta.item-access.python"
 			],
 			"settings": {
 				"foreground": "#f39c12"
@@ -2119,7 +2120,7 @@
 			"name": "[TYPESCRIPT] - Support Class",
 			"scope": [
 				"meta.class.ts support.class.console.ts",
-				"meta.class.tsx support.class.console.tsx",
+				"meta.class.tsx support.class.console.tsx"
 			],
 			"settings": {
 				"foreground": "#f39c12",
@@ -2132,7 +2133,7 @@
 				"meta.object-literal.key.ts",
 				"meta.object-literal.key.tsx",
 				"variable.object.property.ts",
-				"variable.object.property.tsx",
+				"variable.object.property.tsx"
 			],
 			"settings": {
 				"foreground": "#22a7ff"
