@@ -153,6 +153,9 @@
 		// list/tree foreground color for invalid items, for example an unresolved root in explorer
 		"list.invalidItemForeground": "#ff0000",
 		//foreground color of list items containing errors
+		"list.errorForeground": "#ff0000",
+		// foreground color of list items containing warnings
+		"list.warningForeground": "#ffa500",
 
 
 		// ACTIVITY BAR //
