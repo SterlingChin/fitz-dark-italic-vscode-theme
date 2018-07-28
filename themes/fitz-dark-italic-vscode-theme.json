@@ -1115,8 +1115,7 @@
 			"name": "[Global] - Support",
 			"scope": [
 				"support",
-				"support.other",
-				"support.variable"
+				"support.other"
 			],
 			"settings": {
 				"foreground": "#ff1111"
@@ -1156,10 +1155,11 @@
 			}
 		},
 		{
-			"name": "[Global] - Support Type",
+			"name": "[Global] - Support Type / Variable",
 			"scope": [
 				"support.type",
-				"support.type.exception"
+				"support.type.exception",
+				"support.variable"
 			],
 			"settings": {
 				"foreground": "#f39c12",
