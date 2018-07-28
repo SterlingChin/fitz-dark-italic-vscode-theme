@@ -21,7 +21,7 @@
       * [Todo](#todo)
       * [FAQ](#faq)
 
-<!-- Added by: shea, at: 2018-07-24T20:29-05:00 -->
+<!-- Added by: shea, at: 2018-07-27T21:33-05:00 -->
 
 <!--te-->
 
@@ -41,7 +41,7 @@
 
 ### Highlights
 
-- 30 different shades (grayscale + chromatic)
+- 30 different color shades used
 - Distinct colors for JSON levels (to 16 levels deep)
 - [add-on CSS file](./fitz-dark-italic-custom.css) for:
   - Dirty (unsaved) tab red dot
