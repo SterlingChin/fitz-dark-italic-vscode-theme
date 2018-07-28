@@ -1439,6 +1439,15 @@
 				"foreground": "#e1e1e1"
 			}
 		},
+		{
+			"name": "[INI] - Key / Value Equal Sign",
+			"scope": [
+				"punctuation.separator.key-value.ini"
+			],
+			"settings": {
+				"foreground": "#f0f040"
+			}
+		},
 
 
 		// JAVASCRIPT //
