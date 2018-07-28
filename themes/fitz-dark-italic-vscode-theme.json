@@ -1253,7 +1253,16 @@
 			}
 		},
 		{
-			"name": "[Global] - Punctuation",
+			"name": "[Global] - Punctuation Template Expression Definition",
+			"scope": [
+				"punctuation.definition.template-expression"
+			],
+			"settings": {
+				"foreground": "#00ffff"
+			}
+		},
+		{
+			"name": "[Global] - Punctuation Variable Definition",
 			"scope": [
 				"punctuation.definition.variable"
 			],
