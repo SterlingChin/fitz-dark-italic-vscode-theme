@@ -21,7 +21,7 @@
       * [Todo](#todo)
       * [FAQ](#faq)
 
-<!-- Added by: shea, at: 2018-07-27T21:33-05:00 -->
+<!-- Added by: shea, at: 2018-07-28T11:47-05:00 -->
 
 <!--te-->
 
@@ -32,6 +32,7 @@
 
 - [Fitz Dark Italic Theme](https://github.com/sheafitzek/fitz-dark-italic-vscode-theme)
 - [Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme)
+- [Sublime Babel](https://marketplace.visualstudio.com/items?itemName=joshpeng.sublime-babel-vscode) **!important**: adds extra token definitions that are colored by the theme
 - [Rainbow Brackets](https://marketplace.visualstudio.com/items?itemName=2gua.rainbow-brackets)
 - [indent-rainbow](https://marketplace.visualstudio.com/items?itemName=oderwat.indent-rainbow)
 - [Fura Code Nerd Font](https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/FiraCode) in editor (Also looks great with [Operator Mono](https://www.typography.com/fonts/operator/styles/))
