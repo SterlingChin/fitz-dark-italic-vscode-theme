@@ -464,7 +464,6 @@ I took a lot of inspiration and borrowed from the [Cobalt2](https://marketplace.
 
 ## Todo
 
-- [ ] figure out how to change file browser colors for files with lint errors & warnings
 - [ ] figure out how to change whitespace tab character
 
 ## FAQ
