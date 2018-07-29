@@ -31,7 +31,7 @@
 		// foreground color for description text providing additional information, for example for a label
 		"descriptionForeground": "#c3c3c3",
 		// overall foreground color for error messages (this color is only used if not overridden by a component)
-		"errorForeground": "#ff0000",
+		"errorForeground": "#ff0000cc",
 
 
 		// TEXT COLORS //
@@ -89,15 +89,15 @@
 		// input validation background color for error severity
 		"inputValidation.errorBackground": "#1e1e1e",
 		// input validation border color for error severity
-		"inputValidation.errorBorder": "#ff0000",
+		"inputValidation.errorBorder": "#ff0000cc",
 		// input validation background color for information severity
 		"inputValidation.infoBackground": "#1e1e1e",
 		// input validation border color for information severity
-		"inputValidation.infoBorder": "#00ff00",
+		"inputValidation.infoBorder": "#00ff00cc",
 		// input validation background color for information warning
 		"inputValidation.warningBackground": "#1e1e1e",
 		// input validation border color for warning severity
-		"inputValidation.warningBorder": "#ffa500",
+		"inputValidation.warningBorder": "#ffa500cc",
 
 
 		// SCROLLBAR //
@@ -383,15 +383,15 @@
 		// Errors and Warnings
 
 		// foreground color of error squiggles in the editor
-		"editorError.foreground": "#ff0000",
+		"editorError.foreground": "#ff0000cc",
 		// border color of error squiggles in the editor
 		"editorError.border": "#ff000000",
 		// foreground color of warning squiggles in the editor
-		"editorWarning.foreground": "#ff7208",
+		"editorWarning.foreground": "#ffa500cc",
 		// border color of warning squiggles in the editor
-		"editorWarning.border": "#ff720800",
+		"editorWarning.border": "#ffa50000",
 		// foreground color of info squiggles in the editor
-		"editorInfo.foreground": "#00ff00",
+		"editorInfo.foreground": "#00ff00cc",
 		// border color of info squiggles in the editor
 		"editorInfo.border": "#00ff0000",
 		// foreground color of hints in the editor
@@ -404,11 +404,11 @@
 		// background color of the editor gutter. The gutter contains the glyph margins and the line numbers
 		"editorGutter.background": "#3c3c3c99",
 		// editor gutter background color for lines that are modified,
-		"editorGutter.modifiedBackground": "#ffa500",
+		"editorGutter.modifiedBackground": "#ffa500cc",
 		// editor gutter background color for lines that are added
-		"editorGutter.addedBackground": "#00ff00",
+		"editorGutter.addedBackground": "#00ff00cc",
 		// editor gutter background color for lines that are deleted
-		"editorGutter.deletedBackground": "#ff0000",
+		"editorGutter.deletedBackground": "#ff0000cc",
 
 
 		// DIFF EDITOR COLORS //
@@ -1280,7 +1280,7 @@
 				"token.debug-token"
 			],
 			"settings": {
-				"foreground": "#ffff00",
+				"foreground": "#ffff00cc",
 				"fontStyle": "underline"
 			}
 		},
@@ -1290,7 +1290,7 @@
 				"token.error-token"
 			],
 			"settings": {
-				"foreground": "#ff0000",
+				"foreground": "#ff0000cc",
 				"fontStyle": "underline"
 			}
 		},
@@ -1300,7 +1300,7 @@
 				"token.info-token"
 			],
 			"settings": {
-				"foreground": "#00ff00",
+				"foreground": "#00ff00cc",
 				"fontStyle": "underline"
 			}
 		},
@@ -1310,7 +1310,7 @@
 				"token.warn-token"
 			],
 			"settings": {
-				"foreground": "#ffa500",
+				"foreground": "#ffa500cc",
 				"fontStyle": "underline"
 			}
 		},
@@ -1362,7 +1362,7 @@
 				"source.css"
 			],
 			"settings": {
-				"foreground": "#ff0000"
+				"foreground": "#ff1111"
 			}
 		},
 		{
