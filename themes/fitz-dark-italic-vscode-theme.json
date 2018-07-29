@@ -1596,6 +1596,15 @@
 			}
 		},
 		{
+			"name": "[JAVASCRIPT] - Object Key",
+			"scope": [
+				"meta.object-literal.key.js"
+			],
+			"settings": {
+				"foreground": "#22a7ff"
+			}
+		},
+		{
 			"name": "[JAVASCRIPT] - Object Property",
 			"scope": [
 				"meta.property.object.js"
