@@ -730,7 +730,7 @@
 				"fontStyle": "italic"
 			}
 		},
-		
+
 		// Constant
 		{
 			"name": "[Global] - Constant",
@@ -778,7 +778,7 @@
 				"foreground": "#22a7ff"
 			}
 		},
-		
+
 		// Entity
 		{
 			"name": "[Global] - Entity",
@@ -858,7 +858,7 @@
 				"fontStyle": "bold"
 			}
 		},
-		
+
 		// Invalid
 		{
 			"name": "[Global] - Invalid",
@@ -871,7 +871,7 @@
 				"foreground": "#ff0000"
 			}
 		},
-		
+
 		// Keyword
 		{
 			"name": "[Global] - Keyword",
@@ -930,7 +930,7 @@
 				"foreground": "#00ffff"
 			}
 		},
-		
+
 		// Markup
 		{
 			"name": "[Global] - Markup",
@@ -1028,7 +1028,7 @@
 				"foreground": "#23d6f1"
 			}
 		},
-		
+
 		// Meta
 		{
 			"name": "[Global] - Meta",
@@ -1048,7 +1048,7 @@
 				"foreground": "#20df20"
 			}
 		},
-		
+
 		// Storage
 		{
 			"name": "[Global] - Storage",
@@ -1087,7 +1087,7 @@
 				"foreground": "#f0f040"
 			}
 		},
-		
+
 		// String
 		{
 			"name": "[Global] - String",
@@ -1109,7 +1109,7 @@
 				"foreground": "#c3c3c3cc"
 			}
 		},
-		
+
 		// Support
 		{
 			"name": "[Global] - Support",
@@ -1175,7 +1175,7 @@
 				"foreground": "#f9690e"
 			}
 		},
-		
+
 		// Variable
 		{
 			"name": "[Global] - Variable",
@@ -1235,7 +1235,7 @@
 				"fontStyle": "bold"
 			}
 		},
-		
+
 		// Punctuation
 		{
 			"name": "[Global] - Punctuation",
@@ -1273,7 +1273,7 @@
 
 
 		// INFO - WARNING - ERROR //
-		
+
 		{
 			"name": "[Global] - Token Debug",
 			"scope": [
@@ -2099,34 +2099,63 @@
 
 		// SHELL //
 
-		{
-			"name": "[SHELL] - Glob Operator",
-			"scope": [
-				"keyword.operator.glob.shell"
-			],
-			"settings": {
-				"foreground": "#f0f040"
-			}
-		},
-		{
-			"name": "[SHELL] - Scope Group",
-			"scope": [
-				"meta.scope.group.shell",
-				"meta.scope.group.shell meta.scope.while-loop.shell"
-			],
-			"settings": {
-				"foreground": "#e13b74"
-			}
-		},
-		{
-			"name": "[SHELL] - Logical Expression",
-			"scope": [
-				"meta.scope.logical-expression.shell"
-			],
-			"settings": {
-				"foreground": "#e1e1e1"
-			}
-		},
+			{
+				"name": "[SHELL] - Glob Operator",
+				"scope": [
+					"keyword.operator.glob.shell"
+				],
+				"settings": {
+					"foreground": "#f0f040"
+				}
+			},
+			{
+				"name": "[SHELL] - Logical Operator Keyword",
+				"scope": [
+					"keyword.operator.logical.shell"
+				],
+				"settings": {
+					"foreground": "#ff7fff"
+				}
+			},
+			{
+				"name": "[SHELL] - Case Pattern Scope",
+				"scope": [
+					"meta.scope.case-pattern.shell"
+				],
+				"settings": {
+					"foreground": "#ff7fff"
+				}
+			},
+			{
+				"name": "[SHELL] - Scope Group",
+				"scope": [
+					"meta.scope.group.shell",
+					"meta.scope.group.shell meta.scope.while-loop.shell"
+				],
+				"settings": {
+					"foreground": "#e13b74"
+				}
+			},
+			{
+				"name": "[SHELL] - If Block / For In Loop / Case Clause Body Shell",
+				"scope": [
+					"meta.scope.if-block.shell",
+					"meta.scope.for-in-loop.shell",
+					"meta.scope.case-clause-body.shell"
+				],
+				"settings": {
+					"foreground": "#e13b74"
+				}
+			},
+			{
+				"name": "[SHELL] - Logical Expression",
+				"scope": [
+					"meta.scope.logical-expression.shell"
+				],
+				"settings": {
+					"foreground": "#e1e1e1"
+				}
+			},
 
 
 		// TYPESCRIPT //
