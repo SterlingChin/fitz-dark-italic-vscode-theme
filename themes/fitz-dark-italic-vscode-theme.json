@@ -1587,6 +1587,15 @@
 			}
 		},
 		{
+			"name": "[JAVASCRIPT] - JSX Children",
+			"scope": [
+				"meta.jsx.children.js"
+			],
+			"settings": {
+				"foreground": "#e1e1e1"
+			}
+		},
+		{
 			"name": "[JAVASCRIPT] - JSX Text",
 			"scope": [
 				"meta.jsx.js"
