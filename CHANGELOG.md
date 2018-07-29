@@ -22,6 +22,7 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 - add color for meta.scope.for-in-loop.shell
 - add color for meta.scope.case-clause-body.shell
 - add transparency to info, warning and error tokens
+- switch colors for statusBar.foreground and statusBar.noFolderForeground
 
 ## 0.0.1 - 2018-07-24
 ### Added
