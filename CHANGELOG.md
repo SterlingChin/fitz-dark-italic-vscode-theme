@@ -5,11 +5,23 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [Unreleased]
 
-## 0.0.2 - 2018-07-27
+## 0.0.2 - 2018-07-29
 ### Added
 - change banner color in package.json to match logo
 - reversed foreground and background colors for no folder status bar and debugging status bar
 - add list.errorForeground and list.warningForeground colors to theme
+- add color for .ini key / value equal sign
+- add [Sublime Babel](https://marketplace.visualstudio.com/items?itemName=joshpeng.sublime-babel-vscode) to setup section of README
+- add color for support.variable token
+- add color for punctuation.definition.template-expression
+- add color for meta.object-literal.key.js
+- add color for meta.jsx.children.js
+- add color for keyword.operator.logical.shell
+- add color for meta.scope.case-pattern.shell
+- add color for meta.scope.if-block.shell
+- add color for meta.scope.for-in-loop.shell
+- add color for meta.scope.case-clause-body.shell
+- add transparency to info, warning and error tokens
 
 ## 0.0.1 - 2018-07-24
 ### Added
