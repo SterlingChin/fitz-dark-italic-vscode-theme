@@ -414,13 +414,13 @@
 		// DIFF EDITOR COLORS //
 
 		// background color for text that got inserted. The color must not be opaque to not hide underlying decorations
-		"diffEditor.insertedTextBackground": "#00ff0033",
+		"diffEditor.insertedTextBackground": "#00ff0022",
 		// outline color for the text that got inserted
-		"diffEditor.insertedTextBorder": "#00ff0099",
+		"diffEditor.insertedTextBorder": "#00ff0000",
 		// background color for text that got removed. The color must not be opaque to not hide underlying decorations
-		"diffEditor.removedTextBackground": "#ff000033",
+		"diffEditor.removedTextBackground": "#ff000022",
 		// outline color for text that got removed
-		"diffEditor.removedTextBorder": "#ff000099",
+		"diffEditor.removedTextBorder": "#ff000000",
 
 
 		// EDITOR WIDGET COLORS //
