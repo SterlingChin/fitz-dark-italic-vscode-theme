@@ -1,33 +1,35 @@
 # Fitz Dark Italic Theme for VS Code
 
 <!--ts-->
-   * [Fitz Dark Italic Theme for VS Code](#fitz-dark-italic-theme-for-vs-code)
-      * [Setup](#setup)
-      * [Theme Details](#theme-details)
-         * [Highlights](#highlights)
-         * [Colors](#colors)
-            * [Grayscale](#grayscale)
-            * [Chromatic](#chromatic)
-            * [Validation](#validation)
-            * [Opacity Levels](#opacity-levels)
-      * [Getting Started](#getting-started)
-         * [Installation](#installation)
-      * [Contributing](#contributing)
-      * [Versioning](#versioning)
-      * [Authors](#authors)
-      * [License](#license)
-      * [Acknowledgments](#acknowledgments)
-      * [Notes](#notes)
-      * [Todo](#todo)
-      * [FAQ](#faq)
 
-<!-- Added by: shea, at: 2018-07-28T20:33-05:00 -->
+- [Fitz Dark Italic Theme for VS Code](#fitz-dark-italic-theme-for-vs-code)
+  - [Setup](#setup)
+  - [Theme Details](#theme-details)
+    - [Highlights](#highlights)
+    - [Colors](#colors)
+      - [Grayscale](#grayscale)
+      - [Chromatic](#chromatic)
+      - [Validation](#validation)
+      - [Opacity Levels](#opacity-levels)
+  - [Getting Started](#getting-started)
+    - [Installation](#installation)
+  - [Contributing](#contributing)
+  - [Versioning](#versioning)
+  - [Authors](#authors)
+  - [License](#license)
+  - [Acknowledgments](#acknowledgments)
+  - [Notes](#notes)
+  - [Todo](#todo)
+  - [FAQ](#faq)
+
+<!-- Added by: shea, at: 2018-08-18T18:13-05:00 -->
 
 <!--te-->
 
 ![Preview](./images/preview.png "fitz-dark-italic-vscode-theme")
 
 ## Setup
+
 (for screen shot above)
 
 - [Fitz Dark Italic Theme](https://github.com/sheafitzek/fitz-dark-italic-vscode-theme)
@@ -419,7 +421,7 @@
 
 #### Opacity Levels
 
-00 11 22 <mark>***33***</mark> 44 55 <mark>***66***</mark> 77 88 <mark>***99***</mark> aa bb <mark>***cc***</mark> dd ee ff
+00 11 <mark>22</mark> <mark>***33***</mark> 44 55 <mark>***66***</mark> 77 88 <mark>***99***</mark> aa bb <mark>***cc***</mark> dd ee ff
 
 ## Getting Started
 
@@ -443,7 +445,7 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 
 ## Authors
 
-* **Shea Fitzek** - *Initial work* - [sheafitzek](https://github.com/sheafitzek)
+- **Shea Fitzek** - *Initial work* - [sheafitzek](https://github.com/sheafitzek)
 
 See also the list of [contributors](./.docs/CONTRIBUTORS.md) who participated in this project.
 
@@ -458,7 +460,9 @@ I took a lot of inspiration and borrowed from the [Cobalt2](https://marketplace.
 ## Notes
 
 - This palette was selected not because I think these are all the best colors in an aesthetic sense, but because I wanted as many colors as possible for tokens while still being able to tell them apart if they are side by side or on top of one another. I'm sure there are some better colors that could be plugged in while still achieving the contrast I'm looking for, so feel free to send a pull request. You can play with the palette over on colourco.de. You will have to copy & paste this url into your browser to get it to pull up:
+
 `https://colourco.de/none/%23f9690e%2C%23f39c12%2C%23f0f040%2C%23fcf270%2C%2328a228%2C%2376ff76%2C%2320df20%2C%239cff4c%2C%230047ff%2C%2322a7ff%2C%230080ff%2C%2380beff%2C%2323d6f1%2C%2300ffff%2C%23804bff%2C%23877fff%2C%23e13b74%2C%23e26a9b%2C%23ff7fff%2C%23ffb3ff/`
+
 - All braces / brackets have been left the same color as punctuation because I use the [Rainbow Brackets](https://marketplace.visualstudio.com/items?itemName=2gua.rainbow-brackets) extension (link above) to color them.
 - There is a `demo` folder in the repo with sample files for many different languages for testing purposes, but I mainly just use HTML, CSS, JavaScript, JSON, React & Markdown, so I'm sure some of the coverage is missing in the other languages. If you see any red tokens that aren't invalid, open up the *command palette* (<kbd>Ctrl + Shift + P</kbd>) and use the `Developer: Inspect TM Scopes` command to check them out. If the color comes up as `#ff1111`, then there is missing coverage. File an issue and please make sure to indicate whether or not you have the [Sublime Babel](https://marketplace.visualstudio.com/items?itemName=joshpeng.sublime-babel-vscode) extension installed. Then paste a snippet of the code at the end of the corresponding language file in the `demo` folder and make a pull request. 
 - To use the [add-on CSS file](./fitz-dark-italic-custom.css), see [Custom CSS and JS Loader](https://marketplace.visualstudio.com/items?itemName=be5invis.vscode-custom-css).
