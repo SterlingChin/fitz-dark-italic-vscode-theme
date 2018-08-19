@@ -67,7 +67,7 @@
 		// dropdown background
 		"dropdown.background": "#3c3c3c",
 		// dropdown list background
-		"dropdown.listBackground": "#555555",
+		"dropdown.listBackground": "#1e1e1e",
 		// dropdown border
 		"dropdown.border": "#ffb3ffcc",
 		// dropdown foreground
@@ -135,9 +135,9 @@
 		// list/tree drag and drop background when moving items around using the mouse
 		"list.dropBackground": "#3c3c3c",
 		// list/tree background color for the focused item when the list/tree is active
-		"list.focusBackground": "#c3c3c399",
+		"list.focusBackground": "#3c3c3c",
 		// list/tree foreground color for the focused item when the list/tree is active. An active list/tree has keyboard focus, an inactive does not
-		"list.focusForeground": "#1e1e1e",
+		"list.focusForeground": "#ffb3ff",
 		// list/tree foreground color of the match highlights when searching inside the list/tree
 		"list.highlightForeground": "#80beff",
 		// list/tree background when hovering over items using the mouse
