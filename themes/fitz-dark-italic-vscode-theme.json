@@ -696,7 +696,73 @@
 		// color for conflicting Git resources. Used for file labels and the SCM viewlet
 		"gitDecoration.conflictingResourceForeground": "#804bff",
 		// "color for submodule resources
-		"gitDecoration.submoduleResourceForeground": "#23d6f1"
+		"gitDecoration.submoduleResourceForeground": "#23d6f1",
+
+
+		// SETTINGS EDITOR COLORS //
+
+		// the foreground color for a section header or active title
+		"settings.headerForeground": "#e1e1e1",
+		// the foreground color for a the modified setting indicator
+		"settings.modifiedItemForeground": "#e13b74",
+		// the color of the selected setting row border, when the settings list does not have focus
+		"settings.inactiveSelectedItemBorder": "#555555",
+		// dropdown background
+		"settings.dropdownBackground": "#3c3c3c",
+		// dropdown foreground
+		"settings.dropdownForeground": "#00ffff",
+		// dropdown border
+		"settings.dropdownBorder": "#ffb3ffcc",
+		// checkbox background
+		"settings.checkboxBackground": "#3c3c3c",
+		// checkbox foreground
+		"settings.checkboxForeground": "#9cff4c",
+		// checkbox border
+		"settings.checkboxBorder": "#e26a9bcc",
+		// text input box background
+		"settings.textInputBackground": "#3c3c3c",
+		// text input box foreground
+		"settings.textInputForeground": "#fcf270",
+		// text input box border
+		"settings.textInputBorder": "#877fff99",
+		// number input box background
+		"settings.numberInputBackground": "#3c3c3c",
+		// number input box foreground
+		"settings.numberInputForeground": "#f39c12",
+		// number input box border
+		"settings.numberInputBorder": "#0080ff99",
+
+
+		// BREADCRUMBS //
+
+		// color of breadcrumb items
+		"breadcrumb.foreground": "#c3c3c3",
+		// color of focused breadcrumb items
+		"breadcrumb.focusForeground": "#ffb3ff",
+		// color of selected breadcrumb items
+		"breadcrumb.activeSelectionForeground": "#ffb3ff",
+		// background color of breadcrumb item picker
+		"breadcrumbPicker.background": "#1e1e1e",
+
+
+		// MENU //
+
+		// background of menus and context menus
+		"menu.background": "#1e1e1e",
+		// foreground of menus and context menus
+		"menu.foreground": "#c3c3c3",
+		// background of selected item in menus and context menus
+		"menu.selectionBackground": "#3c3c3c99",
+		// foreground of selected item in menus and context menus
+		"menu.selectionForeground": "#877fff",
+		// border of selected item in menus and context menus
+		"menu.selectionBorder": "#3c3c3c",
+		// background of selected top-level menu in the menubar
+		"menubar.selectionBackground": "#555555",
+		// foreground of selected top-level menu in the menubar
+		"menubar.selectionForeground": "#00ffff",
+		// border of selected top-level menu in the menubar
+		"menubar.selectionBorder": "#ffb3ffcc"
 	},
 
 	// for Syntax theme
